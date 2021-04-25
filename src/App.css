@@ -1,5 +1,37 @@
 .App {
   text-align: center;
+  width:100%;
+  height: 100vh;
+  background: #126e82;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+.textArea{
+  width: 400px;
+  height: 150px;
+  background: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        border-radius: 20px;
+        padding: 20px;
+
+}
+.buttonsPart{
+  margin: 20px;
+  width:400px;
+  height: 200px;
+        background: #d8e3e7;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        padding: 30px;
+        border-radius: 20px;
+
+        
 }
 
 .App-logo {
